@@ -1,0 +1,13 @@
+{
+  "name": "@repro/heavy",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./s3": "./s3.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "3.1136.0"
+  }
+}

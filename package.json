@@ -1,0 +1,8 @@
+{
+  "name": "mastra-workspace-deps-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "pnpm --filter @repro/agent build && node check.ts"
+  }
+}
